@@ -1,0 +1,266 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logotitle {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700px
+}
+
+/* TOP MENU NAV  */
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li {
+    margin: 16px 0 ;
+    position: relative;
+}
+
+.menu .bold {
+    font-weight: 700;
+    color: black;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    font-size: 18px;
+
+    font-weight: 400;
+    color:#6C5CE7;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #FDCB6E;
+    ;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.signin button {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    background-color:#6C5CE7;
+    width: 170px;
+    height: 64px;
+    border: none;
+    border-radius: 999px;
+}
+
+
+/* HERO CONTAINER */
+
+.container {
+    text-align: center;
+    padding: 20px;
+
+}
+
+h1 {
+    font-size: 96px;
+}
+
+
+.fine {
+    color:#E84393;
+   text-decoration: underline;
+   text-decoration-color:#00B894;
+   text-decoration-thickness: 10px;
+   text-decoration-style: solid;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 1em;
+}  
+
+
+#one {
+    background-color: white;
+    color: black;
+    grid-template-columns: span 1;
+}
+
+#two {
+    background-color: #00B894;
+    font-size: 48px;
+    font-weight: bolder;
+    grid-column: span 3;
+}
+
+#three {
+    color: black;
+    background-color: white;
+    grid-column: span 1;
+}
+
+#four {
+    background-color: #FDCB6E;
+    grid-row: span 2;
+    color: black;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+#five {
+    background-color: #A29BFE;
+}
+
+#six {
+    background-color: blue;
+}
+
+#seven {
+    background-color: white;
+}
+
+#eight {
+    background-color: #E84393;
+}
+
+#nine {
+    background-color: #6C5CE7;
+    grid-column: span 2;
+}
+
+#ten {
+    background-color: #FF7675;
+}
+
+.custom-button {
+    background-color: white;
+    color: #6C5CE7;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 32px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* DELIVERING GOOD SECTION */
+
+.good {
+    text-align: left;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.good h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.good p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    flex: 1;
+    min-width: 220px;
+}
+
+.icon {
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px auto;
+    color: white;
+}
+
+.card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+.card button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    color: #6C5CE7;
+    background: white;
+    border: 1px solid #ADADAD;
+    border-radius: 16px;
+    cursor: pointer;
+}
