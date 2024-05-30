@@ -264,3 +264,70 @@ h6 {
     border-radius: 16px;
     cursor: pointer;
 }
+
+
+/* MOBILE VERSION */
+
+@media only screen and (max-width: 360px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        margin-top: 20px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .signin button {
+        width: 100%;
+    }
+
+    .container {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .fine {
+        font-size: 24px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .grid-item {
+        font-size: 18px;
+    }
+
+    .card-section {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .icon {
+        font-size: 1.5rem;
+        width: 40px;
+        height: 40px;
+    }
+
+    .card button {
+        width: 100%;
+    }
+}
